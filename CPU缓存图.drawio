@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
   <diagram name="第 1 页" id="Cq_WxRiAl8LDQ1EQOeRA">
-    <mxGraphModel dx="851" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="796" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry height="200" width="120" x="240" y="120" as="geometry" />
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-1" parent="Z-AHRvrSbmsDQjf4nJgZ-6" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="&lt;div&gt;CPU&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="120" as="geometry" />
+          <mxGeometry height="150" width="120" as="geometry" />
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-2" parent="Z-AHRvrSbmsDQjf4nJgZ-6" style="rounded=0;whiteSpace=wrap;html=1;" value="寄存器(最快)" vertex="1">
           <mxGeometry height="50" width="120" as="geometry" />
@@ -19,14 +19,11 @@
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-4" parent="Z-AHRvrSbmsDQjf4nJgZ-6" style="rounded=0;whiteSpace=wrap;html=1;" value="L2缓存" vertex="1">
           <mxGeometry height="50" width="120" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-5" parent="Z-AHRvrSbmsDQjf4nJgZ-6" style="rounded=0;whiteSpace=wrap;html=1;" value="L3缓存" vertex="1">
-          <mxGeometry height="50" width="120" y="150" as="geometry" />
-        </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-7" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="200" width="120" x="380" y="120" as="geometry" />
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-8" parent="Z-AHRvrSbmsDQjf4nJgZ-7" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="&lt;div&gt;CPU&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="120" as="geometry" />
+          <mxGeometry height="150" width="120" as="geometry" />
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-9" parent="Z-AHRvrSbmsDQjf4nJgZ-7" style="rounded=0;whiteSpace=wrap;html=1;" value="寄存器(最快)" vertex="1">
           <mxGeometry height="50" width="120" as="geometry" />
@@ -37,14 +34,11 @@
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-11" parent="Z-AHRvrSbmsDQjf4nJgZ-7" style="rounded=0;whiteSpace=wrap;html=1;" value="L2缓存" vertex="1">
           <mxGeometry height="50" width="120" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-12" parent="Z-AHRvrSbmsDQjf4nJgZ-7" style="rounded=0;whiteSpace=wrap;html=1;" value="L3缓存" vertex="1">
-          <mxGeometry height="50" width="120" y="150" as="geometry" />
-        </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-13" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="200" width="120" x="520" y="120" as="geometry" />
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-14" parent="Z-AHRvrSbmsDQjf4nJgZ-13" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="&lt;div&gt;CPU&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="120" as="geometry" />
+          <mxGeometry height="150" width="120" as="geometry" />
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-15" parent="Z-AHRvrSbmsDQjf4nJgZ-13" style="rounded=0;whiteSpace=wrap;html=1;" value="寄存器(最快)" vertex="1">
           <mxGeometry height="50" width="120" as="geometry" />
@@ -55,37 +49,43 @@
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-17" parent="Z-AHRvrSbmsDQjf4nJgZ-13" style="rounded=0;whiteSpace=wrap;html=1;" value="L2缓存" vertex="1">
           <mxGeometry height="50" width="120" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-18" parent="Z-AHRvrSbmsDQjf4nJgZ-13" style="rounded=0;whiteSpace=wrap;html=1;" value="L3缓存" vertex="1">
-          <mxGeometry height="50" width="120" y="150" as="geometry" />
-        </mxCell>
-        <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="内存条" vertex="1">
-          <mxGeometry height="60" width="400" x="240" y="360" as="geometry" />
+        <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="L3缓存" vertex="1">
+          <mxGeometry height="40" width="400" x="240" y="310" as="geometry" />
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="硬盘" vertex="1">
-          <mxGeometry height="60" width="400" x="240" y="460" as="geometry" />
+          <mxGeometry height="60" width="400" x="240" y="470" as="geometry" />
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-21" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=14.222222222222221;startSize=2.368888888888889;endWidth=14.222222222222221;endSize=2.368888888888889;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="300" y="360" as="sourcePoint" />
-            <mxPoint x="299.78" y="320" as="targetPoint" />
+            <mxPoint x="300" y="310" as="sourcePoint" />
+            <mxPoint x="299.78" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-22" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=14.222222222222221;startSize=2.368888888888889;endWidth=14.222222222222221;endSize=2.368888888888889;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="440" y="360" as="sourcePoint" />
-            <mxPoint x="439.78" y="320" as="targetPoint" />
+            <mxPoint x="440" y="310" as="sourcePoint" />
+            <mxPoint x="439.78" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-23" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=14.222222222222221;startSize=2.368888888888889;endWidth=14.222222222222221;endSize=2.368888888888889;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="580" y="360" as="sourcePoint" />
-            <mxPoint x="579.78" y="320" as="targetPoint" />
+            <mxPoint x="580" y="310" as="sourcePoint" />
+            <mxPoint x="579.78" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z-AHRvrSbmsDQjf4nJgZ-24" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=14.222222222222221;startSize=2.368888888888889;endWidth=14.222222222222221;endSize=2.368888888888889;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="440" y="460" as="sourcePoint" />
-            <mxPoint x="439.78" y="420" as="targetPoint" />
+            <mxPoint x="439.9" y="470" as="sourcePoint" />
+            <mxPoint x="439.67999999999995" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wn0F0SWg_75AH9YZF2q7-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="内存条" vertex="1">
+          <mxGeometry height="40" width="400" x="240" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="wn0F0SWg_75AH9YZF2q7-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=14.222222222222221;startSize=2.368888888888889;endWidth=14.222222222222221;endSize=2.368888888888889;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="439.90000000000003" y="390" as="sourcePoint" />
+            <mxPoint x="439.68" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
